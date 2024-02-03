@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  mcserver:
+    image: "mcserver:paper-1.19.4"
+    container_name: testserver_compose
+    ports: 
+      - "25566:25565"
+    volumes:
+      - "./plugins:/server/plugins"
+    networks:
+      - minecraft
+    stdin_open: true
+    tty: true
+
+networks:
+  minecraft:
