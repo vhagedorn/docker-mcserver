@@ -11,6 +11,8 @@ Optionally, place multiple server jars in the directory `jars/` then run `build.
 
 # Usage
 There are 2 intended ways of using this image:
+
 1) via `docker-compose up -d` and then `docker attach testserver_compose`
 2) via an IntelliJ run configuration:
-![screenshot](https://imgur.com/a/0Bd2CUk)
+
+![https://imgur.com/a/0Bd2CUk](https://imgur.com/nlM7ycW.png)
